@@ -94,8 +94,8 @@ bool nameIncludes(std::string str) {
         if(j == str.length()) i = nome.length();
         
         if(j != 0 && !valido) {
-            j = 0;
             i -= j;
+            j = 0;
         }
     } return valido;
 }
